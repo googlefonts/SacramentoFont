@@ -48,6 +48,10 @@ value = 1;
 {
 name = "Use Line Breaks";
 value = 1;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2012-06-14 07:37:45 +0000";
@@ -55,6 +59,16 @@ designer = "Astigmatic (AOETI)";
 designerURL = "http://www.astigmatic.com/";
 disablesAutomaticAlignment = 1;
 familyName = Sacramento;
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem latn CAT;
+";
+name = Languagesystems;
+}
+);
 features = (
 {
 code = "feature sups;
@@ -98,6 +112,14 @@ code = "sub zero' @slash' zero' zero' by perthousand;
    sub threesuperior' @slash' four' by threequarters; 
 ";
 name = frac;
+},
+{
+automatic = 1;
+code = "script latn;
+language CAT;
+sub  L' periodcentered' L by Ldot;
+";
+name = locl;
 }
 );
 fontMaster = (
